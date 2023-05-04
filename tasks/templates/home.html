@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<main class="container py-5">
+    <section class="card card-body bg-body-secondary">
+        <h1 class="display-1 text-center">Tareas App</h1>
+        <p>Esta página está diseñada específicamente para atender a las personas que tienen una cantidad infinita de tareas o asignaciones para completar, así como a aquellas que tienen trabajo pendiente.
+            Para aquellos con memoria limitada que luchan por recordar detalles importantes, ahora existe una solución viable para su problema.  Hemos diseñado una página donde los nuevos usuarios pueden registrarse y los usuarios que regresan pueden iniciar sesión para acceder a sus cuentas.
+            Una Vez ingrese puedes encontrar las pestañas de crear tareas, tareas pendientes y tareas finalizadas.
+            Esta herramienta le permite crear, editar, completar, priorizar y eliminar tareas según sea necesario.  Nuestra esperanza es que lo encuentre práctico y beneficioso.</p>        
+    
+    
+        <div class="text-center">
+            <a class="btn btn-secondary" href="/signin">
+                Ingresar
+            </a>
+            <a class="btn btn-dark" href="/signup">
+                Inscribirse
+            </a>
+        </div>
+    </section>
+</main>
+{% endblock %}
