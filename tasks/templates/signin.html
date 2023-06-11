@@ -3,7 +3,6 @@
 {% load static %}
 
 <link rel="stylesheet" href="{% static 'style.css' %}">
-{% block content %}
 <div class="form-wrapper">
     <form action="/signin/" method="POST">
         {% csrf_token %}
@@ -134,5 +133,3 @@
 <script src="{% static 'custom.js' %}"></script>
 
 
-
-{% endblock %}
